@@ -49,7 +49,7 @@ def compose(*functions):
     return composed_function
 
 # Data pipeline using function composition
-csv_file_path = 'example.csv'
+csv_file_path = 'r5example.csv'
 SCORE_COLUMN_INDEX: Final[int] = 1
 extract_score_columns = extract_column(SCORE_COLUMN_INDEX)  
 

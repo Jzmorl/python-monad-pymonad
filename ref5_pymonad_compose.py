@@ -20,7 +20,7 @@ def to_string(x):
 
 # Example usage using >>
 result = (
-    to_int("10")
+    to_int("op")
     .then(double)
     .then(add_five)
     .then(to_string)
